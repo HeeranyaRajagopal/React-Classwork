@@ -1,26 +1,16 @@
+import DeleteAxios from "./Day11/DeleteAxios";
+import GetAxios from "./Day11/GetAxios";
+import PostAxios from "./Day11/PostAxios";
+import PutAxios from "./Day11/PutAxios";
 
-// import ErrorBoundary from "./Day8/ErrorBoundary";
-
-import LifecycleFunctional from "./Day8/LifeCycleFunctional";
-
-// import ComponentLifeCycle from "./Day8/ComponentLifeCycle";
-
-// import TryCatch from "./Day8/TryCatch";
-
-// import Car from "./Day8/Car";
 export default function App()
 {
   return(
     <div>
-      {/* <ErrorBoundary>
-        <Car carName="Thar"></Car>
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Car carName="JCB"></Car>
-      </ErrorBoundary> */}
-      {/* <TryCatch fruit="Onion"></TryCatch> */}
-      {/* <ComponentLifeCycle/> */}
-      <LifecycleFunctional/>
+     <GetAxios/>
+     <PostAxios/>
+     <PutAxios/>
+     <DeleteAxios/>
     </div>
   )
 }

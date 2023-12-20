@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Heeranya"
+    },
+    {
+      "id": 2,
+      "name": "Harshini"
+    },
+    {
+      "id": 3,
+      "name": "Daran"
+    },
+    {
+      "name": "Manju",
+      "id": 4
+    },
+    {
+      "name": "RajaGopal",
+      "id": 5
+    },
+    {
+      "name": "❤️",
+      "id": 7
+    }
+  ]
+}
